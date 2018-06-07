@@ -1,0 +1,15 @@
+budget-counter {
+  .budget-counter-box {
+    padding: 2rem;
+    background-color: $budgetblue;
+    color: $white;
+
+    .budget-counter-month {
+      font-size: 2rem;
+    }
+
+    .budget-counter-amount {
+      font-size: 3rem;
+    }
+  }
+}

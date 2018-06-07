@@ -1,0 +1,44 @@
+<div class="expense-detail d-flex flex-column justify-content-center">
+  <a routerLink="/overview" class="d-flex flex-row align-items-center"><i class="material-icons">keyboard_arrow_left</i>Return to Overview</a>
+  <h1>Expense Details</h1>
+  <form>
+
+    <div class="form-group">
+      <label for="exampleInputEmail1">Expense Item</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter item name or description">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputEmail1">Store</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter store / vendor name">
+    </div>
+
+    <div class="form-group">
+      <label for="exampleInputEmail1">Amount</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <div class="input-group-text">$</div>
+        </div>
+        <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Enter Amount">
+      </div>
+    </div>
+
+    <label>Category
+      <em>(Optional)</em>
+    </label>
+    <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+        aria-expanded="false">
+        Select Category
+      </button>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item">Entertainment</a>
+        <a class="dropdown-item">Beauty</a>
+        <a class="dropdown-item">Health</a>
+      </div>
+    </div>
+
+    <button routerLink="/overview" type="button" class="btn btn-primary">Add Expense</button>
+
+  </form>
+</div>

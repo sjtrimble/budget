@@ -1,0 +1,36 @@
+/* bootstrap-custom.scss - custom configuration of bootstrap */
+
+/* disable bootstrap's print styles, which cause weird rendering of ::first-letter */
+$enable-print-styles: false;
+
+/* customize tooltip appearance */
+$tooltip-bg: #48686c !default;
+
+// $tooltip-max-width:           200px !default;
+// $tooltip-color:               $white !default;
+// $tooltip-bg:                  $black !default;
+// $tooltip-opacity:             .9 !default;
+// $tooltip-padding-y:           3px !default;
+// $tooltip-padding-x:           8px !default;
+// $tooltip-margin:              0 !default;
+
+// $tooltip-arrow-width:         5px !default;
+// $tooltip-arrow-height:        5px !default;
+// $tooltip-arrow-color:         $tooltip-bg !default;
+
+/* Set theme colors */
+
+$primary: dodgerblue;
+//$secondary: #f59222;
+
+$theme-colors: (
+  'primary': $primary,
+  /*'secondary': $secondary*/
+);
+
+// $btn-border-radius:           10px;
+// $btn-border-radius-lg:        12px;
+// $btn-border-radius-sm:        8px;
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/bootstrap/scss/bootstrap-reboot.scss';

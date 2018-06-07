@@ -1,0 +1,15 @@
+expense-list {
+  .expense-list-container {
+    margin: 1rem 2rem;
+
+    expense-item .expense-list-item {
+      padding: 1rem;
+      border-bottom: 1px solid $budgetlightgray;
+
+      .expense-list-details {
+        width: 640px;
+        margin: auto;
+      }
+    }
+  }
+}
